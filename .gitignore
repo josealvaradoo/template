@@ -1,0 +1,9 @@
+# Photoshop
+*.psd
+
+# Mockups
+mockup/
+
+#Less Documents
+less/
+*.less
