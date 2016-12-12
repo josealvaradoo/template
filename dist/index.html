@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta charset="utf-8"/>
+    <meta name="description" content=""/>
+    <meta name="author" content="Jose Alvarado"/>
+    <title>Logistic</title>
+    <link rel="stylesheet" href="public/css/edgrid.min.css"/>
+    <link rel="stylesheet" href="public/css/styles.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="ed-container s-100 m-90">
+        <div class="ed-item logo l-20 s-50 m-20"><img src="public/images/logo.png"/></div>
+        <div class="ed-item l-80 m-80 s-50 cross-center main-end">
+          <nav class="navbar">
+            <div class="nav-toggle hide-l"></div>
+            <ul class="nav show-l">
+              <li class="nav__item active"><a href="#">Home</a></li>
+              <li class="nav__item"><a href="#">About</a></li>
+              <li class="nav__item"><a href="#">Services</a></li>
+              <li class="nav__item"><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="banner-zone parallax">
+        <div class="ed-container fullscreen s-100 m-90">
+          <div class="ed-item cross-center main-center">
+            <button class="button btn-default" type="button">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main main-center">
+      <section class="ed-container s-100 l-90 main-justify" id="about-us">
+        <div class="ed-item s-100 l-50">
+          <h3>#About us</h3>
+          <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eos, necessitatibus dolorem temporibus dicta earum quas sint error pariatur vel? Ab dignissimos consequuntur harum, sapiente delectus beatae. Eligendi, magni cum?</p><br/>
+          <button class="button btn-primary">Our Team</button>
+        </div>
+        <div class="ed-item s-100 l-45 main-end"><img src="public/images/banner/meeting.jpg"/></div>
+      </section>
+      <section class="ed-container s-100 l-90" id="services">
+        <h3>#Our Services</h3>
+        <ul class="services ed-item main-center">
+          <li class="services__item cross-center main-center">
+            <div class="service__item__name"><span class="fa fa-ship"></span>
+              <p class="text-center">Marine Transport</p>
+            </div>
+          </li>
+          <li class="services__item cross-center main-center">
+            <div class="service__item__name"><span class="fa fa-plane"></span>
+              <p class="text-center">Air Transport</p>
+            </div>
+          </li>
+          <li class="services__item cross-center main-center">
+            <div class="service__item__name"><span class="fa fa-truck"></span>
+              <p class="text-center">Ground Transport</p>
+            </div>
+          </li>
+          <li class="services__item cross-center main-center">
+            <div class="service__item__archive"><span class="fa fa-ship"></span>
+              <p class="text-center">Storage</p>
+            </div>
+          </li>
+          <li class="services__item cross-center main-center">
+            <div class="service__item__name"><span class="fa fa-check-square-o"></span>
+              <p class="text-center">Customs</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="ed-container s-100 l-90" id="clients">
+        <div class="ed-item">
+          <h3>#Our Clients</h3>
+        </div>
+      </section>
+      <div class="parallax" id="testimonials">
+        <div class="sesgado-right"></div>
+        <div class="ed-container fullscreen cross-center main-center">
+          <div class="ed-item s-20 l-20 cross-center main-center">
+            <div class="arrow arrow__left"></div>
+          </div>
+          <div class="ed-item s-60"><img class="client__avatar" src="public/images/avatar.jpg"/>
+            <p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure perspiciatis, tempora incidunt repudiandae qui ipsa, saepe temporibus mollitia molestias dicta voluptates quae explicabo sint obcaecati repellat repellendus delectus debitis consequuntur.</p>
+          </div>
+          <div class="ed-item s-20 l-10 cross-center main-center">
+            <div class="arrow arrow__right"></div>
+          </div>
+        </div>
+        <div class="sesgado-left"></div>
+      </div>
+      <section class="ed-container s-100 l-90" id="contact-us">
+        <div class="ed-item">
+          <h3>#Contact</h3>
+          <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ut modi, consequatur a voluptates in error mollitia accusamus consequuntur minus optio inventore sed ad possimus odio sint vero vel reprehenderit.</p><br/>
+        </div>
+        <form class="form ed-item ed-container" action="#">
+          <div class="ed-item m-50">
+            <div class="form-group">
+              <label for="#">First and Last Name</label>
+              <input class="form-control" type="text" name="name" autocomplete="off" required="required"/>
+            </div>
+          </div>
+          <div class="ed-item m-50">
+            <div class="form-group">
+              <label for="#">Company</label>
+              <input class="form-control" type="text" name="company" autocomplete="off" required="required"/>
+            </div>
+          </div>
+          <div class="ed-item m-50">
+            <div class="form-group">
+              <label for="#">Email</label>
+              <input class="form-control" type="email" name="email" autocomplete="off" required="required"/>
+            </div>
+          </div>
+          <div class="ed-item m-50">
+            <div class="form-group">
+              <label for="#">Phone</label>
+              <input class="form-control" type="tex" name="phone" autocomplete="off" required="required"/>
+            </div>
+          </div>
+          <div class="ed-item">
+            <div class="form-group">
+              <textarea class="form-control" name="message" required="required"></textarea>
+            </div>
+          </div>
+          <div class="ed-item">
+            <button class="button btn-primary btn-block" type="button">Send Message</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="ed-container fullscreen">
+        <div class="ed-item cross-center main-center">
+          <p>All rights reserved | 2017</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

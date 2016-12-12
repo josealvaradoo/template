@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+        meta(charset="utf-8")
+        meta(name="description" content="")
+        meta(name="author" content="Jose Alvarado")
+        title Logistic
+        link(rel="stylesheet" href="public/css/edgrid.min.css")
+        link(rel="stylesheet" href="public/css/styles.css")
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+
+    body
+        header.main-header
+            include blocks/nav
+        
+        main.main.main-center
+            section.ed-container.s-100.l-90.main-justify#about-us
+                .ed-item.s-100.l-50
+                    h3 #About us
+                    p.text-justify Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eos, necessitatibus dolorem temporibus dicta earum quas sint error pariatur vel? Ab dignissimos consequuntur harum, sapiente delectus beatae. Eligendi, magni cum?
+                    br
+                    button(type=button).button.btn-primary Our Team
+                .ed-item.s-100.l-45.main-end
+                    img(src="public/images/banner/meeting.jpg")
+            
+            section.ed-container.s-100.l-90#services
+                h3 #Our Services
+                include blocks/services
+            section.ed-container.s-100.l-90#clients
+                .ed-item: h3 #Our Clients
+            include blocks/clients
+            include blocks/contact
+
+        include blocks/footer

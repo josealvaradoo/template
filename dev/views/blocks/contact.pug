@@ -1,0 +1,27 @@
+section.ed-container.s-100.l-90#contact-us
+    .ed-item
+        h3 #Contact
+        p.text-justify  Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ut modi, consequatur a voluptates in error mollitia accusamus consequuntur minus optio inventore sed ad possimus odio sint vero vel reprehenderit.
+        br
+    form(action="#").form.ed-item.ed-container
+        .ed-item.m-50
+            .form-group
+                label(for="#") First and Last Name
+                input(type="text" name="name" autocomplete="off" required).form-control
+        .ed-item.m-50
+            .form-group
+                label(for="#") Company
+                input(type="text" name="company" autocomplete="off" required).form-control
+        .ed-item.m-50
+            .form-group
+                label(for="#") Email
+                input(type="email" name="email" autocomplete="off" required).form-control
+        .ed-item.m-50
+            .form-group
+                label(for="#") Phone
+                input(type="tex" name="phone" autocomplete="off" required).form-control
+        .ed-item
+            .form-group
+                textarea(name="message" required).form-control
+        .ed-item
+            button(type="button").button.btn-primary.btn-block Send Message

@@ -1,9 +1,10 @@
-# Photoshop
-*.psd
+#Photoshop Files
+.psd
 
-# Mockups
-mockup/
+#OS Files
+.exe
 
-#Less Documents
+#Folders
+node_modules/
+mockups/
 less/
-*.less
